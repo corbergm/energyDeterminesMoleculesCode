@@ -10,8 +10,7 @@ clear all
 clc
 
 fig3_labels = ['ABCDE'];
-f = figure;
-% f = openfig(".\Legend\legends.fig");
+f = openfig("legends.fig");
 f.Units = 'centimeter';
 f.Position = [10, 10, 13, 10];
 pos = get(gca, 'Position');
